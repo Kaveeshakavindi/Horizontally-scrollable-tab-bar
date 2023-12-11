@@ -6,26 +6,9 @@ import Lake from './tabs/Lake';
 
 const TabScreen = ({ selectedTab }) => {
     let content = null;
-
-    switch (selectedTab.id) {
-        case 1:
-            content = <Beach/>;
-            break;
-        case 2:
-            content = <City />;
-            break;
-        case 3:
-            content = <Lake />;
-            break;
-        
-
-        default:
-            break;
-    }
-
+    content = selectedTab.path;
     return (
         <View>
-            <Text>Tab Screen</Text>
             {content}
         </View>
     );

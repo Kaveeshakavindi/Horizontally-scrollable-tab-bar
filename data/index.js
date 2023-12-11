@@ -1,22 +1,25 @@
+import Beach from "../tabs/Beach";
+import City from "../tabs/City";
+import Lake from "../tabs/Lake";
 
 export const SCREEN_NAMES = [
     {
         id: 1,
         name: 'Beaches',
         icon: 'sun',
-        path: './tabs/Beach'
+        path: <Beach/>
     },
     {
         id: 2,
         name: 'Cities',
         icon: 'building',
-        path: './tabs/City'
+        path: <City />
     },
     {
         id: 3,
         name: 'Lakes',
         icon: 'user',
-        path: './tabs/Lake'
+        path: <Lake/>
     },
     {
         id: 4,
@@ -41,22 +44,22 @@ export const SCREEN_NAMES = [
 
 export const COLOR_OPTIONS = [
     {
-        id: 7,
+        id: 0,
         name: 'Blue',
         value: '#c4e0f5'
     },
     {
-        id: 8,
+        id: 1,
         name: 'Pink',
         value: '#ffdeef'
     },
     {
-        id: 9,
+        id: 2,
         name: 'Green',
         value: '#deffee'
     },
     {
-        id: 10,
+        id: 3,
         name: 'Yellow',
         value: '#fff5de'
     },
