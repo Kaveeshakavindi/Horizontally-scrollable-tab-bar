@@ -26,7 +26,8 @@ const styles = StyleSheet.create({
   },
   selectedButton: {
     backgroundColor: 'white',
-    borderWidth: 2
+    borderWidth: 2,
+    
   },
   selectedButtonText: {
     color: '#19113b'

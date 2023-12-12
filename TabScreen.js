@@ -1,8 +1,5 @@
 import React from 'react';
-import { Text, View } from 'react-native';
-import Beach from './tabs/Beach';
-import City from './tabs/City'; 
-import Lake from './tabs/Lake';
+import { View } from 'react-native';
 
 const TabScreen = ({ selectedTab }) => {
     let content = null;

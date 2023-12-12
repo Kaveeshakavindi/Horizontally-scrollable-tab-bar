@@ -25,19 +25,19 @@ export const SCREEN_NAMES = [
         id: 4,
         name: 'Mountains',
         icon: 'user',
-        path: './tabs/Beach'
+        path: <Lake/>
     },
     {
         id: 5,
         name: 'Roads',
         icon: 'user',
-        path: './tabs/City'
+        path: <Lake/>
     },
     {
         id: 6,
         name: 'Parks',
         icon: 'user',
-        path: './tabs/Lake'
+        path: <Lake/>
     },
 
 ]
