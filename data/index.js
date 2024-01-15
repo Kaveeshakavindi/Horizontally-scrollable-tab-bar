@@ -1,13 +1,20 @@
-import Beach from "../tabs/Beach";
+import Craftsmen from "../tabs/Craftsman";
 import City from "../tabs/City";
 import Lake from "../tabs/Lake";
+import Home from "../tabs/Home"
 
 export const SCREEN_NAMES = [
     {
+        id: 0,
+        name: 'home',
+        icon: 'home',
+        path: <Home/>,
+    },
+    {
         id: 1,
-        name: 'Beaches',
-        icon: 'sun',
-        path: <Beach/>
+        name: 'Craftsmen',
+        icon: 'paint-roller',
+        path: <Craftsmen/>,
     },
     {
         id: 2,
