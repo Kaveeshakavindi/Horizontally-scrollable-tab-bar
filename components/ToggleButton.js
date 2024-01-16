@@ -32,6 +32,7 @@ const styles = StyleSheet.create({
   buttonText: {
     color: 'white',
     fontSize: 16,
+    fontFamily: 'Product-Sans-Regular'
   },
   icon:{
     paddingRight: 10

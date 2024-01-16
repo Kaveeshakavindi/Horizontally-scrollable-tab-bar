@@ -71,20 +71,22 @@ const styles = StyleSheet.create({
     },
     title1: {
         fontSize: 25,
-
+        fontFamily: 'Product-Sans-Regular'
     },
     title2: {
         fontSize: 25,
-        fontWeight: '700'
+        fontWeight: '700',
+        fontFamily: 'Product-Sans-Regular'
     },
     cardContainer: {
-        width: (windowWidth * 0.8 - 16) / 2,
+        width: (windowWidth * 0.9 - 16) / 2,
         marginHorizontal: 5,
         height: 75,
         alignItems: 'center',
         justifyContent: 'center',
         borderRadius: 15,
-        flexDirection: 'row'
+        flexDirection: 'row',
+       
     },
     cardsRow: {
         flexDirection: 'row',
@@ -92,14 +94,15 @@ const styles = StyleSheet.create({
     },
     cardsContainer: {
         flexDirection: 'column',
-        width: windowWidth * 0.8,
+        width: windowWidth * 0.9,
         alignSelf: 'center',
-        marginTop: 20
+        marginTop: 20,
+        zIndex: -1
     },
     cardText: {
         color: '#000000',
-        fontWeight: 'bold'
-    },
+        fontFamily: 'Product-Sans-Bold'
+        },
     icon: {
         marginRight: 10
     },

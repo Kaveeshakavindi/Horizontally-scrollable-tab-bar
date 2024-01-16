@@ -10,7 +10,7 @@ export const lightTheme = {
   //colors
   selectedTabBg: '#382ADD',
   backgroundColor: '#F2F2F2',
-  primaryText: '#505050',
+  primaryText: '#000000',
   secondaryText: '#949494', // You can customize the dark theme button color
   tertiaryText: '#6DA2EF',
   componentBg: '#FFFFFF',

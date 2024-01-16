@@ -28,7 +28,8 @@ const styles = StyleSheet.create({
     title: {
         fontSize: 20,
         color: 'red',
-        textTransform: 'capitalize'
+        textTransform: 'capitalize',
+        fontFamily: 'Product-Sans-Regular'
     }
 })
 

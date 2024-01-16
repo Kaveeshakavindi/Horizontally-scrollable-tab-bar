@@ -3,6 +3,7 @@ export const PEOPLE = [
       id: 1,
       name: 'Bon Nam',
       occupation: 'Carpenter',
+      
     },
     {
       id: 2,

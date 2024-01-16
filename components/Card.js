@@ -15,8 +15,8 @@ const Card = ({name, occupation}) => {
       </View>
       <View style={styles.textContainer}>
         <Text style={[styles.title, {color: theme.primaryText}]}>{occupation}</Text>
-        <Text style={[styles.subtitle, {color: theme.secondaryText}]}>Assigned</Text>
-        <Text style={[styles.name, {color: theme.primaryText}]}>{name}</Text>
+        <Text style={[styles.subtitle, {color: theme.tertiaryText}]}>Assigned</Text>
+        <Text style={[styles.name, {color: theme.secondaryText}]}>{name}</Text>
       </View>
     </View>
   )
@@ -44,17 +44,18 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 20,
     textTransform: 'capitalize',
-    fontWeight: 'bold',
+    fontFamily: 'Product-Sans-Bold'
   },
   subtitle:{
     textTransform: 'capitalize',
     marginTop: 10,
-    fontSize: 12
+    fontSize: 12,
+    fontFamily: 'Product-Sans-Regular'
   },
   name:{
-    fontWeight: 'bold',
     textTransform: 'capitalize',
-    fontSize: 15
+    fontSize: 15,
+    fontFamily: 'Product-Sans-Regular'
   }
 })
 export default Card

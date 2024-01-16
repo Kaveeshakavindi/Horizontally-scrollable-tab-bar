@@ -28,8 +28,9 @@ const styles = StyleSheet.create({
   },
 
   buttonText: {
-    
+    fontFamily: 'Product-Sans-Regular',
     fontSize: 16,
+    textTransform: 'capitalize'
   },
   icon: {
     paddingRight: 10

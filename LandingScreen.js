@@ -34,12 +34,13 @@ const styles = StyleSheet.create({
         backgroundColor: '#1C1923'
     },
     title: {
-        fontSize: 30,
+        fontSize: 35,
         color: '#00C2FF',
-        fontWeight: 'bold'
+        fontFamily: 'Product-Sans-Bold'
     },
     subTitle: {
-        color: '#C0BFC5'
+        color: '#C0BFC5',
+        fontFamily: 'Product-Sans-Regular'
     },
     buttonContainer: {
         paddingTop: 15,
@@ -53,7 +54,7 @@ const styles = StyleSheet.create({
     buttonTitle: {
         fontSize: 15,
         color: 'white',
-        
+        fontFamily: 'Product-Sans-Regular'
     }
 })
 
